@@ -1,5 +1,5 @@
 {
-  "name": "timesheet-vuejs",
+  "name": "realtime-checkins",
   "private": true,
   "dependencies": {
     "bootstrap": "beta-4.0.0-beta",

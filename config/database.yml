@@ -11,15 +11,15 @@ default: &default
 
 development:
   <<: *default
-  database: timesheetvue_development
+  database: realtimecheckins_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: timesheetvue_test
+  database: realtimecheckins_test
 
 production:
   <<: *default
-  database: timesheetvue_production
+  database: realtimecheckins_production
