@@ -6,5 +6,5 @@ test: *local
 
 production:
   adapter: redis
-  url: redis://localhost:6379/1
-  channel_prefix: timesheet-vuejs_production
+  url: redis://redistogo:95e42f8e823040aaa39357fa75e3df59@jack.redistogo.com:11670/ 
+
