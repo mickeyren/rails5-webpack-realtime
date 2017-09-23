@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+
+html {
+  height: 100%;
+}
+
+body {
+  background: url(https://secure.tacticson.com/assets/background-be256ddf9f3b3d4f8998b4d8487a69f0.jpg) repeat-x fixed;
+  background-color: #333333;
+  color: #ffffff !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  padding-bottom: 15rem;
+  position: relative;
+  height: 100%;
+}
+
+/* @media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+} */
+
+.nav-item {
+  letter-spacing: 1px;
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.8;
+  padding: 0 16px 0 20px;
+  text-transform: uppercase;
+}
+
+.navbar-bg {
+  background-color: #333333;
+}
+
+.navbar-brand span, footer span {
+  color: #00AE9F;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+#map {
+  height: 600px;
+  width: 100%;
+}
+
+.overlay{
+  display:block;
+  text-align:center;
+  color:#fff;
+  font-size:30px;
+  line-height:80px;
+  opacity:0.8;
+  background:#4477aa;
+  border:solid 3px #336699;
+  border-radius:4px;
+  box-shadow:2px 2px 10px #333;
+  text-shadow:1px 1px 1px #666;
+  padding:0 4px;
+}
+
+.overlay_arrow{
+  left:50%;
+  margin-left:-16px;
+  width:0;
+  height:0;
+  position:absolute;
+}
+.overlay_arrow.above{
+  bottom:-15px;
+  border-left:16px solid transparent;
+  border-right:16px solid transparent;
+  border-top:16px solid #336699;
+}
+.overlay_arrow.below{
+  top:-15px;
+  border-left:16px solid transparent;
+  border-right:16px solid transparent;
+  border-bottom:16px solid #336699;
+}
